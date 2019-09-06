@@ -1,0 +1,35 @@
+server:
+  port: 7910
+  
+spring:  application:    name: microservice-provider-movie  
+  
+  
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://user:password123@localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
+    
+#hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
+
+# 以配置hystrix超时时间为例
+hystrix:
+  command:
+    #默认的超时时间设置
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 1000
+    # commandKey，默认为方法名
+    getProductOrderList:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000
+            
+            

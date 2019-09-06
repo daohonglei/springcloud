@@ -43,5 +43,13 @@
    		<module>springcloud-client</module>
    		<module>springcloud-eureka</module>
 		<module>springcloud-client-eureka</module>		
+		<module>springcloud-client-eureka-properties-customizing</module>
+		
+		<module>springcloud-client-eureka-with-hystrix</module>
+		
+		<module>springcloud-client-with-feign</module>
+		<module>springcloud-client-with-feign-customizing</module>
+		<module>springcloud-client-with-feign-hystrix</module>
+		
 	</modules>
 </project>

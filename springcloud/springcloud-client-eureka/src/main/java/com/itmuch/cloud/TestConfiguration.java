@@ -9,8 +9,6 @@ import com.netflix.loadbalancer.RandomRule;
 @Configuration
 @ExcludeFromComponentScan
 public class TestConfiguration {
-  //  @Autowired
-  //  IClientConfig config;
 
   @Bean
   public IRule ribbonRule() {
