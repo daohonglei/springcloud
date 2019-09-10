@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-service" />
+        <module name="springcloud-client-with-feign-hystrix" />
+        <module name="springcloud-client-with-ribbon-with-hystrix" />
+        <module name="springcloud-client-with-eureka" />
+        <module name="springcloud-client-with-ribbon-without-eureka" />
+        <module name="springcloud-client-with-ribbon" />
+        <module name="springcloud-client-with-ribbon-customizing" />
+        <module name="springcloud-client-with-feign-customizing" />
+        <module name="springcloud-eureka" />
+        <module name="springcloud-client-with-ribbon-customizing-properties" />
+        <module name="springcloud-client-with-feign-hystrix-hystrix-factory" />
+        <module name="springcloud-client" />
+        <module name="springcloud-client-with-feign-customizing-without-hystrix" />
+        <module name="springcloud-client-with-feign" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-client-eureka" target="1.8" />
+      <module name="springcloud-client-eureka-properties-customizing" target="1.8" />
+      <module name="springcloud-client-with-hystrix" target="1.8" />
+      <module name="springcloud-client-with-hystrix (1)" target="1.8" />
+      <module name="springcloud-client-with-ribbon (1)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud-client" options="-parameters" />
+      <module name="springcloud-client-eureka" options="-parameters" />
+      <module name="springcloud-client-eureka-properties-customizing" options="-parameters" />
+      <module name="springcloud-client-with-eureka" options="-parameters" />
+      <module name="springcloud-client-with-feign" options="-parameters" />
+      <module name="springcloud-client-with-feign-customizing" options="-parameters" />
+      <module name="springcloud-client-with-feign-customizing-without-hystrix" options="-parameters" />
+      <module name="springcloud-client-with-feign-hystrix" options="-parameters" />
+      <module name="springcloud-client-with-feign-hystrix-hystrix-factory" options="-parameters" />
+      <module name="springcloud-client-with-hystrix" options="-parameters" />
+      <module name="springcloud-client-with-hystrix (1)" options="-parameters" />
+      <module name="springcloud-client-with-ribbon" options="-parameters" />
+      <module name="springcloud-client-with-ribbon (1)" options="-parameters" />
+      <module name="springcloud-client-with-ribbon-customizing" options="-parameters" />
+      <module name="springcloud-client-with-ribbon-customizing-properties" options="-parameters" />
+      <module name="springcloud-client-with-ribbon-with-hystrix" options="-parameters" />
+      <module name="springcloud-client-with-ribbon-without-eureka" options="-parameters" />
+      <module name="springcloud-eureka" options="-parameters" />
+      <module name="springcloud-service" options="-parameters" />
+    </option>
+  </component>
+</project>

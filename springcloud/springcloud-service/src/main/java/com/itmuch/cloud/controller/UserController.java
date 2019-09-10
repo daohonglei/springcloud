@@ -19,7 +19,7 @@ public class UserController {
   @GetMapping("/simple/{id}")
   public User findById(@PathVariable Long id) {
 	  User user = this.userRepository.findById(id).get();
-    return user;
+      return user;
   }
   
   @PostMapping("/user")

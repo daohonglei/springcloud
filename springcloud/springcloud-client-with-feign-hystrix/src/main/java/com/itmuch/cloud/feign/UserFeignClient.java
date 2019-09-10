@@ -10,5 +10,5 @@ import com.itmuch.cloud.entity.User;
 @FeignClient(name = "microservice-provider-user", fallback = HystrixClientFallback.class)
 public interface UserFeignClient {
   @RequestMapping(value = "/simple/{id}", method = RequestMethod.GET)
-  public User  findById(@PathVariable("id") Long id);
+  User  findById(@PathVariable("id") Long id);
 }
