@@ -14,7 +14,10 @@ public class MicroserviceSimpleConsumerMovieApplication {
   @Bean
   @LoadBalanced
   public RestTemplate restTemplate() {
-    return new RestTemplate();
+    RestTemplate restTemplate=new RestTemplate();
+    int i=1;
+    i++;
+    return restTemplate;
   }
 
   public static void main(String[] args) {

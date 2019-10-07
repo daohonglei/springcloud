@@ -82,5 +82,8 @@
 		<module>springcloud-client-with-ribbon-customizing-properties</module>
 		<module>springcloud-client-with-ribbon-without-eureka</module>
 
+		<module>springcloud-client-with-zuul</module>
+		<module>springcloud-client-with-zuul-reg-exp</module>
+
 	</modules>
 </project>

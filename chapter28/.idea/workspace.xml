@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef728d7c-0ebd-42b7-a602-9d81c2accd2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter28.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/bin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka-properties-customizing/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka-properties-customizing/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka-properties-customizing/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka-properties-customizing/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka-properties-customizing/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka-properties-customizing/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka-properties-customizing/.settings/org.springframework.ide.eclipse.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka-properties-customizing/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka-properties-customizing/src/main/java/com/itmuch/cloud/MicroserviceSimpleConsumerMovieApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka-properties-customizing/src/main/java/com/itmuch/cloud/controller/MovieController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka-properties-customizing/src/main/java/com/itmuch/cloud/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka-properties-customizing/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka/.settings/org.springframework.ide.eclipse.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka/src/main/java/com/itmuch/cloud/ExcludeFromComponentScan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka/src/main/java/com/itmuch/cloud/MicroserviceSimpleConsumerMovieApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka/src/main/java/com/itmuch/cloud/TestConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka/src/main/java/com/itmuch/cloud/controller/MovieController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka/src/main/java/com/itmuch/cloud/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-eureka/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-feign-customizing/src/main/java/com/itmuch/cloud/feign/UserFeignClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-feign-customizing/src/main/java/com/itmuch/cloud/feign/UserFeignClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-feign-customizing/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-feign-customizing/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-feign-hystrix/src/main/java/com/itmuch/cloud/MicroserviceSimpleConsumerMovieApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-feign-hystrix/src/main/java/com/itmuch/cloud/MicroserviceSimpleConsumerMovieApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-feign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-hystrix/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-hystrix/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-hystrix/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-hystrix/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-hystrix/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-hystrix/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-hystrix/.settings/org.springframework.ide.eclipse.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-hystrix/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-hystrix/src/main/java/com/itmuch/cloud/MicroserviceSimpleConsumerMovieApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-hystrix/src/main/java/com/itmuch/cloud/controller/MovieController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-hystrix/src/main/java/com/itmuch/cloud/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-hystrix/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-hystrix/target/classes/META-INF/maven/com.springcloud/springcloud-client-with-hystrix/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-hystrix/target/classes/META-INF/maven/com.springcloud/springcloud-client-with-hystrix/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-client-with-hystrix/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/bin/springcloud-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/bin/springcloud-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/bin/springcloud-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-customizing/target/classes/META-INF/maven/com.springcloud/springcloud-client-with-feign-customizing/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-customizing/target/classes/META-INF/maven/com.springcloud/springcloud-client-with-feign-customizing/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-customizing/target/classes/com/itmuch/cloud/MicroserviceSimpleConsumerMovieApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-customizing/target/classes/com/itmuch/cloud/MicroserviceSimpleConsumerMovieApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-customizing/target/classes/com/itmuch/cloud/controller/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-customizing/target/classes/com/itmuch/cloud/controller/MovieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-customizing/target/classes/com/itmuch/cloud/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-customizing/target/classes/com/itmuch/cloud/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-customizing/target/classes/com/itmuch/cloud/feign/FeignClient2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-customizing/target/classes/com/itmuch/cloud/feign/FeignClient2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-customizing/target/classes/com/itmuch/cloud/feign/UserFeignClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-customizing/target/classes/com/itmuch/cloud/feign/UserFeignClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-customizing/target/classes/com/itmuch/config/Configuration1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-customizing/target/classes/com/itmuch/config/Configuration1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-customizing/target/classes/com/itmuch/config/Configuration2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-customizing/target/classes/com/itmuch/config/Configuration2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-hystrix/target/classes/META-INF/maven/com.springcloud/springcloud-client-with-feign-hystrix/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-hystrix/target/classes/META-INF/maven/com.springcloud/springcloud-client-with-feign-hystrix/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-hystrix/target/classes/com/itmuch/cloud/MicroserviceSimpleConsumerMovieApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-hystrix/target/classes/com/itmuch/cloud/MicroserviceSimpleConsumerMovieApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-hystrix/target/classes/com/itmuch/cloud/feign/UserFeignClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign-hystrix/target/classes/com/itmuch/cloud/feign/UserFeignClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign/target/classes/META-INF/maven/com.springcloud/springcloud-client-with-feign/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign/target/classes/META-INF/maven/com.springcloud/springcloud-client-with-feign/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-client-with-feign/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-client/target/classes/META-INF/maven/com.springcloud/springcloud-client/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-client/target/classes/META-INF/maven/com.springcloud/springcloud-client/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-client/target/classes/com/itmuch/cloud/MicroserviceSimpleConsumerMovieApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-client/target/classes/com/itmuch/cloud/MicroserviceSimpleConsumerMovieApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-client/target/classes/com/itmuch/cloud/controller/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-client/target/classes/com/itmuch/cloud/controller/MovieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-client/target/classes/com/itmuch/cloud/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-client/target/classes/com/itmuch/cloud/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-eureka/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-eureka/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-service/src/main/java/com/itmuch/cloud/MicroserviceSimpleProviderUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-service/src/main/java/com/itmuch/cloud/MicroserviceSimpleProviderUserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-service/target/classes/META-INF/maven/com.springcloud/springcloud-service/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-service/target/classes/META-INF/maven/com.springcloud/springcloud-service/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-service/target/classes/com/itmuch/cloud/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/springcloud-service/target/classes/com/itmuch/cloud/controller/UserController.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="chapter28" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="chapter28" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/chapter28.iml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_9_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_9_RELEASE.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1239" />
+    <option name="y" value="-337" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="chapter28" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter28" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter28" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter28" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter28" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter28" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter28" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter28" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter28" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter28" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter28" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter28" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter28" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter28" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter28" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\spring-tool-suite-4-4\wk\springcloud\springcloud\chapter28\src\main\resources\META-INF" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef728d7c-0ebd-42b7-a602-9d81c2accd2e" name="Default Changelist" comment="" />
+      <created>1568536818838</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568536818838</updated>
+      <workItem from="1568536822004" duration="3318000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3318000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1448" y="-785" width="1456" height="2536" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32972524" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" visible="true" weight="0.021489972" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuqiyu/chapter28/HelloProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuqiyu/chapter28/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuqiyu/chapter28/HelloAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.4.RELEASE/spring-boot-autoconfigure-1.5.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnMissingBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.9.RELEASE/spring-context-4.3.9.RELEASE-sources.jar!/org/springframework/context/annotation/Conditional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1118">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

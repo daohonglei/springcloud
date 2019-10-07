@@ -8,15 +8,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-service" />
         <module name="springcloud-client-with-feign-hystrix" />
-        <module name="springcloud-client-with-ribbon-with-hystrix" />
+        <module name="springcloud-client-with-zuul" />
         <module name="springcloud-client-with-eureka" />
         <module name="springcloud-client-with-ribbon-without-eureka" />
         <module name="springcloud-client-with-ribbon" />
         <module name="springcloud-client-with-ribbon-customizing" />
-        <module name="springcloud-client-with-feign-customizing" />
-        <module name="springcloud-eureka" />
-        <module name="springcloud-client-with-ribbon-customizing-properties" />
         <module name="springcloud-client-with-feign-hystrix-hystrix-factory" />
+        <module name="springcloud-eureka" />
+        <module name="springcloud-client-with-zuul-reg-exp" />
+        <module name="springcloud-client-with-ribbon-customizing-properties" />
+        <module name="springcloud-client-with-feign-customizing" />
+        <module name="springcloud-client-with-ribbon-with-hystrix" />
         <module name="springcloud-client" />
         <module name="springcloud-client-with-feign-customizing-without-hystrix" />
         <module name="springcloud-client-with-feign" />
@@ -49,6 +51,8 @@
       <module name="springcloud-client-with-ribbon-customizing-properties" options="-parameters" />
       <module name="springcloud-client-with-ribbon-with-hystrix" options="-parameters" />
       <module name="springcloud-client-with-ribbon-without-eureka" options="-parameters" />
+      <module name="springcloud-client-with-zuul" options="-parameters" />
+      <module name="springcloud-client-with-zuul-reg-exp" options="-parameters" />
       <module name="springcloud-eureka" options="-parameters" />
       <module name="springcloud-service" options="-parameters" />
     </option>

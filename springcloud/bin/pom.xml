@@ -26,6 +26,24 @@
 			<type>pom</type>
 			<scope>import</scope>
 		</dependency>
+		<dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-runtime</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.activation</groupId>
+            <artifactId>activation</artifactId>
+            <version>1.1.1</version>
+        </dependency>
 	</dependencies>
 
 	<build>
@@ -41,15 +59,28 @@
 	<modules>
 		<module>springcloud-service</module>
    		<module>springcloud-client</module>
+
    		<module>springcloud-eureka</module>
-		<module>springcloud-client-eureka</module>		
-		<module>springcloud-client-eureka-properties-customizing</module>
-		
-		<module>springcloud-client-eureka-with-hystrix</module>
+		<module>springcloud-client-with-eureka</module>
 		
 		<module>springcloud-client-with-feign</module>
 		<module>springcloud-client-with-feign-customizing</module>
+		<module>springcloud-client-with-feign-customizing-without-hystrix</module>
+
+
+
 		<module>springcloud-client-with-feign-hystrix</module>
-		
+		<module>springcloud-client-with-feign-hystrix-hystrix-factory</module>
+
+
+
+        <module>springcloud-client-with-ribbon-with-hystrix</module>
+
+
+		<module>springcloud-client-with-ribbon</module>
+		<module>springcloud-client-with-ribbon-customizing</module>
+		<module>springcloud-client-with-ribbon-customizing-properties</module>
+		<module>springcloud-client-with-ribbon-without-eureka</module>
+
 	</modules>
 </project>

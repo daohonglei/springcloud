@@ -4,7 +4,9 @@ server:
 user: 
   userServicePath: http://localhost:7900/simple/
   
-spring:  application:    name: microservice-provider-movie  
+spring:
+  application:
+    name: microservice-provider-movie  
   
   
 eureka:
@@ -16,3 +18,7 @@ eureka:
   instance:
     prefer-ip-address: true
     instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
+
+logging:
+  level:
+    com.itmuch.cloud.feign.UserFeignClient: DEBUG

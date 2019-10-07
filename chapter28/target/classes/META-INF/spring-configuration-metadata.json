@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "hello",
+      "type": "com.yuqiyu.chapter28.HelloProperties",
+      "sourceType": "com.yuqiyu.chapter28.HelloProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "hello.msg",
+      "type": "java.lang.String",
+      "sourceType": "com.yuqiyu.chapter28.HelloProperties",
+      "defaultValue": "HengYu"
+    },
+    {
+      "name": "hello.show",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.yuqiyu.chapter28.HelloProperties",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}
