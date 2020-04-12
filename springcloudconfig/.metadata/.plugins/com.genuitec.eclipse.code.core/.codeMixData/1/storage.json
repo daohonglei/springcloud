@@ -1,0 +1,14 @@
+{
+    "telemetry.machineId": "ea8b0c33ab8a513608ff9a43ad25a946f39639ede29d6bb5d5f7423c0a7dcf6d",
+    "openedPathsList": {
+        "workspaces3": [
+            {
+                "id": "95b8d122a404da0032c388ca6a3de339",
+                "configURIPath": "file:///g%3A/spring-tool-suite-4-4/wk/springcloud/springcloudconfig/.metadata/codemix.code-workspace"
+            }
+        ],
+        "files2": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#221a0f"
+}
