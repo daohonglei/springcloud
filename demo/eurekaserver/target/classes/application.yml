@@ -1,0 +1,18 @@
+spring:
+  security:
+    user:
+      name: user
+      password: password123
+  application:
+    name: eureka-server
+
+eureka:
+  instance:
+    hostname: master
+    #hostname: backup
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://user:password123@localhost:8082/eureka
+      #defaultZone: http://user:password123@localhost:8081/eureka

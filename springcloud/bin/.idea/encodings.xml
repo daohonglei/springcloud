@@ -19,6 +19,8 @@
     <file url="file://$PROJECT_DIR$/springcloud-client-with-ribbon-customizing/src/main/java/com/itmuch/config/TestConfiguration.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/springcloud-client-with-ribbon-with-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-client-with-ribbon-without-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-client-with-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-client-with-zuul-reg-exp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-service" charset="UTF-8" />
   </component>

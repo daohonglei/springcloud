@@ -11,7 +11,8 @@ spring:
     schema: classpath:schema.sql
     data: classpath:data.sql
   application:
-    name: microservice-provider-user-v1
+#    name: microservice-provider-user-v1
+    name: microservice-provider-user
 
 logging:
   level:

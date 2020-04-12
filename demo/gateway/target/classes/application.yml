@@ -1,0 +1,35 @@
+server:
+  port: 8079
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+      - id: www                      # http://localhost:8080/csdn/ticket/get  ת�� http://localhost:8083/ticket/get
+        #uri: http://localhost:8083
+        uri: lb://SERVER
+        predicates:
+        - Path=/csdn/**
+        filters:
+        - StripPrefix=1
+        - name: Hystrix
+          args:
+            name: fallbackcmd
+            fallbackUri: forward:/fallback
+hystrix.command.fallbackcmd.execution.isolation.thread.timeoutInMilliseconds: 5000
+
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://user:password123@localhost:8081/eureka,http://user:password123@localhost:8082/eureka
+  instance:
+    lease-renewal-interval-in-seconds: 1   #ÿ���1s�������˷���һ��������֤���Լ���Ȼ����
+    lease-expiration-duration-in-seconds: 2  #���߷���ˣ������2s֮��û�и��㷢�������ʹ����ҡ������ˣ������߳�����
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+
+

@@ -1,0 +1,30 @@
+server:
+  port: 8060
+
+spring:
+  application:
+    name: turbindashboard
+
+turbine:
+  aggregator:
+    clusterConfig: default    # 指定聚合哪些集群“,” 分割，默认为default。可用
+  appConfig: web,web2    # appConifg 配置Euraka中的serviceId列表，表明监控哪些服务  microservice-consumer-hystrix,microservice-consumer-ribbon-hystrix
+  clusterNameExpression: new String("default")  #"'default'"
+  instanceUrlSuffix:
+    defaulthystrix: /hystrix.stream
+
+
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://user:password123@localhost:8081/eureka,http://user:password123@localhost:8082/eureka
+  instance:
+    lease-renewal-interval-in-seconds: 1
+    lease-expiration-duration-in-seconds: 2
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+
+#http://localhost:8060/hystrix
+#http://localhost:8060/turbine.stream

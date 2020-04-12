@@ -14,11 +14,11 @@
         <module name="springcloud-client-with-ribbon" />
         <module name="springcloud-client-with-ribbon-customizing" />
         <module name="springcloud-client-with-feign-hystrix-hystrix-factory" />
-        <module name="springcloud-eureka" />
+        <module name="springcloud-client-with-ribbon-with-hystrix" />
         <module name="springcloud-client-with-zuul-reg-exp" />
         <module name="springcloud-client-with-ribbon-customizing-properties" />
+        <module name="springcloud-eureka" />
         <module name="springcloud-client-with-feign-customizing" />
-        <module name="springcloud-client-with-ribbon-with-hystrix" />
         <module name="springcloud-client" />
         <module name="springcloud-client-with-feign-customizing-without-hystrix" />
         <module name="springcloud-client-with-feign" />

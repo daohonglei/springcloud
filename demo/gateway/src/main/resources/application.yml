@@ -1,0 +1,41 @@
+server:
+  port: 8079
+
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      routes:
+      - id: www                      # http://localhost:8080/csdn/ticket/get  转 http://localhost:8083/ticket/get
+        #uri: http://localhost:8083
+        uri: lb://SERVER
+        predicates:
+        - Path=/csdn/**
+        filters:
+        - StripPrefix=1
+        - name: Hystrix
+          args:
+            name: fallbackcmd
+            fallbackUri: forward:/fallback
+            timeout:                  #指定接口超时处理
+              file-upload-convert: 20000
+              file-upload-: 20000
+              file-download-: 20000
+              course-file-upload-local-: 20000
+
+hystrix.command.fallbackcmd.execution.isolation.thread.timeoutInMilliseconds: 20000
+
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://user:password123@localhost:8081/eureka,http://user:password123@localhost:8082/eureka
+  instance:
+    lease-renewal-interval-in-seconds: 1
+    lease-expiration-duration-in-seconds: 2
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+
+

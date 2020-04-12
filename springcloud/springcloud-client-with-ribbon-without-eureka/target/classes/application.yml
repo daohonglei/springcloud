@@ -16,9 +16,10 @@ eureka:
     prefer-ip-address: true
     instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
 
+# 禁用 eureka
 ribbon:
   eureka:
-    enabled: false # 禁用 eureka
+    enabled: false
 #without eureka
 microservice-provider-user:
   ribbon:
