@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 	@GetMapping("get")
 	public String get() {
+		/*try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}*/
 		System.out.println("hello");
 		return "hello";
 	}

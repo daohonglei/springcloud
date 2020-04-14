@@ -19,7 +19,7 @@ import com.alibaba.fastjson.JSON;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-@Component
+//@Component
 public class WrapperResponseFilter implements GlobalFilter, Ordered {
     @Override
     public int getOrder() {

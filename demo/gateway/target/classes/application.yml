@@ -3,13 +3,18 @@ server:
 
 spring:
   application:
-    name: api-gateway
+    name: gateway
+  redis:
+    host: 192.168.160.140
+    port: 6379
+
+    database: 0
   cloud:
     gateway:
       routes:
-      - id: www                      # http://localhost:8080/csdn/ticket/get  ת�� http://localhost:8083/ticket/get
+      - id: www                      # http://localhost:8080/csdn/ticket/get  转 http://localhost:8083/ticket/get
         #uri: http://localhost:8083
-        uri: lb://SERVER
+        uri: lb://WEB
         predicates:
         - Path=/csdn/**
         filters:
@@ -18,17 +23,29 @@ spring:
           args:
             name: fallbackcmd
             fallbackUri: forward:/fallback
-hystrix.command.fallbackcmd.execution.isolation.thread.timeoutInMilliseconds: 5000
+            timeout:                  #指定接口超时处理
+              file-upload-convert: 20000
+              file-upload-: 20000
+              file-download-: 20000
+              course-file-upload-local-: 20000
+        - name: RequestRateLimiter
+          args:
+            #rate-limiter: "#{@myRateLimiter}"
+            key-resolver: '#{@uriKeyResolver}'
+            redis-rate-limiter.replenishRate: 1000
+            redis-rate-limiter.burstCapacity: 1000
+
+hystrix.command.fallbackcmd.execution.isolation.thread.timeoutInMilliseconds: 20000
 
 eureka:
   client:
     healthcheck:
       enabled: true
     serviceUrl:
-      defaultZone: http://user:password123@localhost:8081/eureka,http://user:password123@localhost:8082/eureka
+      defaultZone: http://user:password123@localhost:8081/eureka  #,http://user:password123@localhost:8082/eureka
   instance:
-    lease-renewal-interval-in-seconds: 1   #ÿ���1s�������˷���һ��������֤���Լ���Ȼ����
-    lease-expiration-duration-in-seconds: 2  #���߷���ˣ������2s֮��û�и��㷢�������ʹ����ҡ������ˣ������߳�����
+    lease-renewal-interval-in-seconds: 1
+    lease-expiration-duration-in-seconds: 2
     prefer-ip-address: true
     instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
 
