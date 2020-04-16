@@ -17,3 +17,9 @@ eureka:
     lease-expiration-duration-in-seconds: 2  #告诉服务端，如果我2s之内没有给你发心跳，就代表我“死”了，将我踢出掉。
     prefer-ip-address: true
     instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+
+
+logging:
+  config: classpath:logback.xml
+  level:
+    com: info

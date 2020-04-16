@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37f21e99-b22f-4977-a3a8-7cc2d0b55d95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/gateway/HostAddrKeyResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/gateway/UriKeyResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/gateway/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/gateway/AuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/gateway/FallbackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/gateway/FallbackController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/gateway/GatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/gateway/RequestRateLimiterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/gateway/RequestRateLimiterConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/gateway/WrapperResponseFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/gateway/WrapperResponseFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/cpm/server/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/cpm/server/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/web/feign/MyHystrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/web/feign/MyHystrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,27 +74,28 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="43" />
-          <entry key="XML" value="3" />
-          <entry key="YAML" value="6" />
+          <entry key="XML" value="4" />
+          <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="76" />
-          <entry key="YAML" value="47" />
+          <entry key="JAVA" value="88" />
+          <entry key="YAML" value="52" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/cpm/server/ServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
@@ -117,10 +109,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/cpm/server/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50">
-              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="250">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -156,7 +162,6 @@
         <option value="$PROJECT_DIR$/eurekaserver/pom.xml" />
         <option value="$PROJECT_DIR$/server/src/main/java/cpm/server/AppServer.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/cpm/server/ServerApplication.java" />
-        <option value="$PROJECT_DIR$/server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/gateaway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/server/pom.xml" />
         <option value="$PROJECT_DIR$/eurekaserver/src/main/resources/bootstrap.yml" />
@@ -184,8 +189,9 @@
         <option value="$PROJECT_DIR$/gateway/src/main/java/com/gateway/FallbackController.java" />
         <option value="$PROJECT_DIR$/gateway/src/main/java/com/gateway/RequestRateLimiterConfig.java" />
         <option value="$PROJECT_DIR$/gateway/src/main/java/com/gateway/GatewayApplication.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/cpm/server/controller/UserController.java" />
         <option value="$PROJECT_DIR$/gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/server/src/main/java/cpm/server/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -282,12 +288,20 @@
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,7 +311,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586791305707" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587042206993" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -314,6 +328,7 @@
       <recent name="com.eurekaserver" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\spring-tool-suite-4-4\wk\springcloud\springcloud\demo\server\src\main\resources" />
       <recent name="J:\项目\springcloud\demo" />
       <recent name="J:\项目\springcloud\demo\turbindashboard\src\main\resources" />
       <recent name="J:\项目\springcloud\demo\server\src\main\resources" />
@@ -337,7 +352,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GatewayApplication">
+  <component name="RunManager" selected="Spring Boot.ServerApplication">
     <configuration name="GatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gateway.GatewayApplication" />
       <module name="gateway" />
@@ -442,16 +457,18 @@
       <workItem from="1586691314788" duration="188000" />
       <workItem from="1586691712463" duration="2059000" />
       <workItem from="1586781415903" duration="8859000" />
+      <workItem from="1587041649337" duration="371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50322000" />
+    <option name="totallyTimeSpent" value="50693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -473,7 +490,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.59391963" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.15418024" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -493,13 +510,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.2.RELEASE/spring-cloud-gateway-core-2.2.2.RELEASE.jar!/org/springframework/cloud/gateway/config/GatewayProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.5.RELEASE/spring-core-5.2.5.RELEASE.jar!/org/springframework/util/MultiValueMap.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -565,13 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-start-line="8" selection-end-line="18" selection-end-column="92" />
         </state>
       </provider>
     </entry>
@@ -685,10 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -710,10 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -742,10 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,9 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -791,9 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,12 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding>
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -814,9 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,13 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/cpm/server/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -842,6 +811,23 @@
             <element signature="e#330#331#0" expanded="true" />
             <element signature="e#398#399#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/cpm/server/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>
