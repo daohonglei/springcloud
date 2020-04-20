@@ -14,5 +14,10 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://user:password123@localhost:8082/eureka
-      #defaultZone: http://user:password123@localhost:8081/eureka
+      #defaultZone: http://user:password123@localhost:8082/eureka
+      defaultZone: http://user:password123@localhost:8081/eureka
+
+logging:
+  config: classpath:logback.xml
+  level:
+    com: info
