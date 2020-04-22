@@ -1,0 +1,4 @@
+com\web\feign\MyFeign.class
+com\web\WebApplication.class
+com\web\controller\MyController.class
+com\web\feign\MyHystrix.class

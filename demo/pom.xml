@@ -19,9 +19,10 @@
         <spring-cloud.version>Hoxton.SR3</spring-cloud.version>
     </properties>
     <modules>
+        <module>common</module>
+        <module>web</module>
         <module>eurekaserver</module>
         <module>gateway</module>
-        <module>web</module>
         <module>web2</module>
         <module>server</module>
         <module>turbindashboard</module>
@@ -80,13 +81,13 @@
         </dependencies>
     </dependencyManagement>
 
-    <build>
+    <!--<build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-    </build>
+    </build>-->
 
 </project>

@@ -34,6 +34,8 @@ spring:
             key-resolver: '#{@uriKeyResolver}'
             redis-rate-limiter.replenishRate: 1000
             redis-rate-limiter.burstCapacity: 1000
+      httpclient:
+        max-header-size:
 
 hystrix.command.fallbackcmd.execution.isolation.thread.timeoutInMilliseconds: 20000
 
